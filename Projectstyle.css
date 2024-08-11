@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+background-color: rgb(8, 0, 9);
+
+}
+
+.counter{
+padding: 20px;
+    text-align: center;
+    font-family:  "Montserrat Alternates", sans-serif;
+}
+/*Վերնագիր*/
+.title{
+    text-align: center;
+    font-size: 48px;
+    color: rgb(246, 150, 6);
+letter-spacing: 7px;
+word-spacing: 10px;
+text-shadow: 2px 2px rgb(236, 237, 240);
+margin-bottom: 60px;
+}
+/*Բովանդակություն*/
+.text{
+    margin-bottom: 10px;
+    display: block;
+width: 100% ;
+height: auto;
+  border: 1px solid rgba(248, 146, 4, 0.237);
+    border-radius: 2px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight:lighter;
+    font-size: 20px;
+    text-transform: capitalize;
+    resize: none;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 2;
+    caret-color: rgb(221, 126, 11);
+    color:rgba(211, 121, 18, 0.889);
+}
+.counter text:focus,
+.counter text:valid{
+    border-color: rgb(239, 1, 144);
+}
+.counter.error textarea{
+    border-color: brown;
+}
+
+/* Բաթթն*/
+.count-btn{
+    display: block;
+    margin:0 auto;
+    padding: 12px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Montserrat Alternates", sans-serif; 
+  background-color: rgba(221, 127, 11, 0);
+  color: rgb(250, 246, 246);
+  border-radius: 10px;
+  border :2px, solid, rgb(221, 126, 11); 
+  cursor: pointer;
+  
+  
+}
+.count-btn:hover{
+    background-color: rgb(72, 227, 11);
+    border:none;
+}
+/*Բառեր*/
+.word-result{
+    margin-top: 10px;
+    font-weight: 200;
+font-size: 24px;
+color:rgb(250, 246, 246);
+}
+span{
+    font-size: 24px;
+    color:rgb(250, 246, 246);
+}
+/*Տառեր*/
+.letters-result{
+    font-weight: 200 ;
+font-size: 24px;
+padding: 10px;
+color:rgb(250, 246, 246);
+}
+/*Նախադասություններ*/
+.sentence-result{
+    font-weight: 200;
+font-size: 24px;
+color:rgb(250, 246, 246);
+
+
+}
+/*limmit*/
+.counter .car{
+    display: none;
+}
+
+.counter.active .car{
+   display: block;
+}
+
+.counter.error .car{
+ color: brown;
+}
+.counter.error .title{
+    color: brown;
+   }
+ .counter.error .word-result{
+    color: brown;
+   }
+   .counter.error .letters-result{
+    color: brown;
+   }
+   .counter.error .sentence-result{
+    color: brown;
+   }
+   
+
+
+
+
+
